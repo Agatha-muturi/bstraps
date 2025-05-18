@@ -1,0 +1,134 @@
+*{
+    font-family: Oswald;
+}
+body{
+  
+    color: white;
+    padding: 0px;
+}
+header
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+ul{
+    display: flex;
+}
+.hero{
+    background-image: url(images/food.jpg) ;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: oswald;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    padding: 10px 10px;
+}
+.menu{
+    max-width: 1000px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0;
+}
+.item {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    Display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 1px;
+}
+
+.title {
+    font-size: 1.25rem;
+   /*  margin: 0 0 8px; */
+    font-weight: bold;
+}
+
+.description {
+    Font-size: 0.95rem;
+    color: #555;
+   /*  margin-bottom: 2px; */
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2e8b57;
+}
+
+.menutext{
+    padding-top: -100;
+}
+#aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.text img{
+  width: 100%;
+  height: 500px;
+  border-radius: 12px;
+}
+.text{
+    display: flex;
+    text-align: center;
+    padding: 0;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+.footer {
+  background-color: gray;
+  color: #eee;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer .icons {
+  margin-top: 10px;
+  color: black;
+}
+
+.footer .icons a {
+  color: #eee;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer .icons a:hover {
+  color: #e63946;}
